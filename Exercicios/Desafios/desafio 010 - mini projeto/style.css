@@ -1,0 +1,172 @@
+@charset "UTF-8";
+
+        @font-face {
+            font-family:android;
+            src: url(fontes/idroid.otf);
+        }
+
+        @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Permanent+Marker&display=swap');
+
+        :root {
+            --cor01: #C5EBD6;
+            --cor02: #83E1AD;
+            --cor03: #2FAB65;          
+            --cor04: #0c532b;
+            --cor05: #063D1E;
+            --fonte0: Arial, Helvetica, sans-serif;
+            --fonte1: 'Bebas Neue';
+            --fonte2: 'android';
+        }
+
+        body {
+            font-family: var(--fonte0);
+            background-color: var(--cor02);
+        }
+
+        header {
+            background-image: linear-gradient(to bottom, var(--cor03), var(--cor05));
+            padding: 10px;
+            height: 100%;
+        }
+
+        header > h1 {
+            font-size: 40px;
+            font-family: var(--fonte1);
+            text-align: center;
+            color: rgba(255, 255, 255, 0.973);
+            text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.514);
+        }
+
+        header > h2 {
+            font-size: 16px;
+            font-weight: normal;
+            text-align: center;
+            color: rgba(255, 255, 255, 0.897);
+            text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.363);
+        }
+    
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bolder;
+            text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.363);
+            padding: 0px 10px 0px 10px;
+        }
+
+        nav > a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            background-color: white;
+            padding: 15px 20px 0px 20px;
+            margin: auto;
+            min-width: 400px;
+            max-width: 800px;
+        }
+
+        #noticia > h2 {
+            font-family: var(--fonte2);
+            color: var(--cor04);
+        }
+
+        h3 {
+            font-family: var(--fonte2);
+            color: var(--cor04);
+            background-image: linear-gradient(to right, var(--cor01), white);
+        }
+
+        #noticia > p {
+            text-indent: 30px;
+            font-weight: 500;
+            text-align: justify;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 2.0em;
+        }
+
+        #destaque {
+            color: var(--cor04);
+            font-weight: bolder;
+        }
+
+        #foto > p {
+            text-align: center;
+        }
+
+        div.video {
+            position: relative;
+            background-color: var(--cor05);
+            height: 0px;
+            margin-left: -20px;
+            margin-right: -20px;
+            margin-bottom: 15px;
+            padding-bottom: 59%;
+        }
+
+        div.video > iframe {
+            position: absolute;
+            top: 5%;
+            left: 5%;
+            width: 90%;
+            height: 90%;
+        }
+
+        aside {
+            background-color: var(--cor01);
+            border-radius: 0px 0px 10px 10px;
+        }
+
+        h4 {
+            background-color: var(--cor03);
+            color: white;
+            padding: 10px;
+            border-radius: 10px 10px 0px 0px;
+        }
+
+        aside > p {
+            text-indent: 30px;
+            font-weight: 500;
+            text-align: justify;
+            padding: 10px;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 2.0em;
+        }
+
+        li {
+            font-weight: bolder;
+        }
+
+        a {
+            text-decoration: underline;
+            color: black;
+        }
+
+        #noticia > #ultimo > p {
+            text-indent: 30px;
+            font-weight: 500;
+            text-align: justify;
+            padding-bottom: 30px;
+        }
+
+        footer {
+            background-color: var(--cor05);
+            color: white;
+            text-align: center;
+            padding: 3px;
+            font-size: 14px;
+           
+        }
+        
+        ul {
+            list-style-type: '\2714\0020\0020';
+            columns: 2;
+            list-style-position: inside;
+        }
+
+        #noticia > picture > img {
+            width: 100%;
+        }
+
+        
