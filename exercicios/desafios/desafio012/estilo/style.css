@@ -43,11 +43,55 @@ header p {
 main {
     font-family: 'Sriracha', cursive;
     font-size: 3.5vw;
-    margin-left: 30px;
-    margin-top: 66px;
     line-height: 2em;
 }
 
-#joaninha {
+.texto {
+    margin-left: 30px;
+    margin-top: 65px;
+    margin-bottom: 90px;
 }
 
+#joaninha {
+    background-image: url(imagens/background001.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    padding-top: 60px;
+    padding-bottom: 60px; 
+
+    color: blue;
+}
+
+#cartas {
+    background-image: url(imagens/background002.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    padding-top: 60px;
+    padding-bottom: 70px;  
+}
+
+.texto-2 {
+    margin-left: 30px;
+    background-color: rgba(0, 0, 0, 0.486);
+    padding: 5px;
+    width: 42vw;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 1px black;
+    
+}
+
+#texto-baixo {
+    margin-top: -55px;
+}
+
+footer {
+    background-color: black;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    text-align: center;
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 160px;
+}
